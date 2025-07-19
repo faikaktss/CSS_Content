@@ -1,62 +1,41 @@
-CSS Temelleri ve Uygulamaları Koleksiyonu
-Bu repo, CSS'in temel konularını ve sıkça kullanılan özelliklerini içeren bir dizi pratik HTML dosyası koleksiyonudur. Her bir dosya, belirli bir CSS özelliğini veya tekniğini, anlaşılır ve izole bir şekilde göstermek amacıyla oluşturulmuştur.
+CSS Temelleri ve Uygulamaları
+Bu depo, web geliştirmenin temel taşlarından olan CSS (Cascading Style Sheets) üzerine yaptığım pratik çalışmaları içermektedir. Repo, temel CSS konularından başlayarak, seçiciler, kutu modeli, konumlandırma ve sık kullanılan CSS tekniklerine kadar uzanan çeşitli örnekler sunar. Amacım, bu pratik örnekler aracılığıyla CSS becerilerimi pekiştirmek ve web tasarımı alanındaki temel yetkinliklerimi geliştirmektir.
 
-🎯 Amaç
-Bu projenin amacı, CSS öğrenme sürecinde olanlar için her bir konuyu ayrı ayrı dosyalarda, uygulamalı ve sade örneklerle sunmaktır. Kodları inceleyerek ve tarayıcıda sonuçları görerek CSS mantığını daha hızlı kavrayabilirsiniz.
+Depo İçeriği
+Repo, aşağıdaki konuları ve pratik uygulamaları içermektedir:
 
-🛠️ Kullanılan Teknolojiler
-📂 Reponun İçeriği
-Bu koleksiyonda aşağıdaki konularla ilgili pratik örnekler bulunmaktadır:
+CSS Çağırma Yöntemleri : Projeye harici, dahili ve satır-içi CSS ekleme yöntemleri. (css_çağırmak.html)
 
-Temel Yapı ve Seçiciler
-CSS Çağırma Yöntemleri: HTML dosyasına CSS nasıl dahil edilir (css_çağırmak.html).
+Temel Seçiciler : id, class, etiket ve evrensel seçicilerin kullanımı. (id_class_seçiciler.html, Selectors.html)
 
-ID ve Class Seçicileri: id ve class kullanarak elementleri hedefleme (ıd_class_seçiciler.html).
+Div Elementi : <div> etiketinin web sayfalarını bölümlemek için temel kullanımı. (div_nedir.html)
 
-Genel Seçiciler: Farklı türde CSS seçicileri ve kullanımları (Selectors.html).
+Genişlik ve Yükseklik : Elementlere width ve height özellikleri ile boyut atama. (wıdth_height.html)
 
-Div Elementi: <div> elementinin ne olduğu ve temel kullanımı (div_nedir.html).
+Margin (Dış Boşluk) : Elementler arasına dış boşluk ekleme ve yönetimi. (Margin_özelliği.html)
 
-Yorum Satırları ve Renkler: Kodda yorum satırı kullanımı ve temel renk atamaları (yorum_satırları_renkler.html).
+Padding (İç Boşluk) : Elementlerin içeriği ile kenarlığı arasına iç boşluk ekleme. (padding_kullanımı.html)
 
-Kutu Modeli (Box Model) ve Boyutlandırma
-Width ve Height: Genişlik ve yükseklik özellikleri (wıdth_height.html).
+Border Radius : Elementlerin kenarlarını yuvarlatarak estetik bir görünüm kazandırma. (border_radius_Kullanımı.html)
 
-Margin Özelliği: Dış boşluk (margin) kullanımı (Margin_özelliği.html).
+Display Özellikleri : inline, block ve inline-block değerlerinin davranışları ve kullanım senaryoları. (inline-block_kullanımı.html)
 
-Padding Özelliği: İç boşluk (padding) kullanımı (padding_kullanımı.html).
+Overflow : Bir elementin içeriği kendi boyutlarını aştığında ne olacağını kontrol etme. (overflow.html)
 
-Border Radius: Kenarları yuvarlatma (border_radius_Kullanımı.html).
+Z-Index : Üst üste binen elementlerin katman sırasını belirleme. (Z-Index_özelliği.html)
 
-Konumlandırma ve Akış (Layout & Positioning)
-Inline, Block ve Inline-Block: display özelliğinin temel değerleri (inline-block_kullanımı.html).
+Arka Plan Özellikleri : background-color, background-image gibi arka plan stillerinin kullanımı. (background_kullanımı.html)
 
-Overflow: Taşan içerikleri yönetme (overflow.html).
+Metin ve Font Stilleri : font-family, font-size, color ve text-align gibi metin biçimlendirme özellikleri. (text_fon.html)
 
-Z-Index: Elementlerin katman sırasını belirleme (Z-Index_özelliği.html).
+Link Stilleri : Bağlantıların :link, :visited, :hover ve :active durumlarını biçimlendirme. (Link-Özellikleri.html)
 
-Görsel Tasarım ve Stil
-Arka Plan Kullanımı: background özellikleri (background_kullanımı.html).
+Yatay Menü Yapımı : Temel CSS özellikleri kullanılarak bir navigasyon menüsü oluşturma. (yatay_menü_yapımı.html)
 
-Yazı Tipi ve Metin Özellikleri: font ve text ile ilgili stil ayarları (text_fon.html).
+Tablo Biçimlendirme : HTML tablolarının kenarlık, renk ve hizalama gibi özelliklerini stillendirme. (Tablo_Özellikleri.html)
 
-Link (Bağlantı) Özellikleri: Linklerin :hover, :visited gibi durumları için stil verme (Link-Özellikleri.html).
+Liste Stilleri : Sıralı ve sırasız listelerin madde imlerini (list-style-type) özelleştirme. (Liste_ico_değiştirme.html)
 
-Bileşenler ve Özel Uygulamalar
-Yatay Menü Yapımı: CSS ile basit bir yatay navigasyon menüsü oluşturma (yatay_menü_yapımı.html).
+İkon Ekleme : Harici kütüphaneler (örneğin Font Awesome) kullanarak web sayfasına ikon ekleme. (web_sayfasına_ikonEklemek.html)
 
-Tablo Özellikleri: HTML tablolarını biçimlendirme (Tablo_Özellikleri.html).
-
-Liste İkonlarını Değiştirme: Sıralı veya sırasız listelerin madde imlerini özelleştirme (Liste_ico_değiştirme.html).
-
-Web Sayfasına İkon Ekleme: Font Awesome gibi kütüphanelerle ikon ekleme pratiği (web_sayfasına_ikonEklemek.html).
-
-🚀 Nasıl Kullanılır?
-Repoyu bilgisayarınıza klonlayın:
-
-Bash
-
-git clone https://github.com/[KULLANICI_ADINIZ]/[REPO_ADINIZ].git
-Klasöre gidin ve ilgilendiğiniz HTML dosyasını herhangi bir web tarayıcısında (Google Chrome, Firefox vb.) açın.
-
-Kod yapısını ve CSS özelliklerinin nasıl kullanıldığını görmek için aynı dosyayı bir kod editöründe (VS Code, Sublime Text vb.) inceleyin.
+Yorum Satırları ve Renkler : CSS kodunda yorum satırlarının kullanımı ve temel renk kodları. (yorum_satırları_renkler.html)
